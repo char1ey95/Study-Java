@@ -51,7 +51,7 @@ $ sudo apt-get install gedit
 
 혹은 vi 명령어를 이용해서 작성해도 무방하다.
 
-```
+```bash
 ## 열린 파일에 다음의 설정을 추가하자.
 export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which java))))
 export PATH=$PATH:$JAVA_HOME/bin
